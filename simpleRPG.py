@@ -95,6 +95,7 @@ def battle_sequence():
 		print('Enemy HP',enemy_hp) # Prints current hp level of enemy.
 		print('Move List:')
 		print(hero_move_list)
+		print('Slash (0) Defend (1) Cure (2)')
 		hero_atk = input('What move would you like to use?')
 		if hero_atk == '0':
 			print('Hero used slash!')
